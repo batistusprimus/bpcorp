@@ -10,12 +10,24 @@ export default function VerticalsIndexPage() {
   return (
     <Container>
       <section className="py-12">
-        <h1 className="text-3xl font-bold mb-4">Verticals</h1>
-        <p className="mb-6 text-gray-700">Short placeholder paragraph describing the vertical approach.</p>
+        <h1 className="text-3xl font-bold mb-4">Verticales</h1>
+        <p className="mb-6 text-gray-700">Nos lignes de services opérées à la performance.</p>
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {VERTICALS.map((v) => (
             <li key={v.slug} className="border border-gray-300 p-3">
-              <Link href={`/verticals/${v.slug}`} className="font-medium">{v.title}</Link>
+              <div className="flex items-center justify-between gap-2">
+                <Link href={`/verticals/${v.slug}`} className="font-medium">{v.title}</Link>
+                {v.url && (
+                  <a
+                    href={v.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-blue-600 hover:underline"
+                  >
+                    Voir le site ↗
+                  </a>
+                )}
+              </div>
               <p className="text-sm text-gray-700">{v.blurb}</p>
             </li>
           ))}

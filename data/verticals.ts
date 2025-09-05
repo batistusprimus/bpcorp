@@ -1,13 +1,27 @@
-export type Vertical = { slug: string; title: string; blurb: string };
+export type Vertical = { slug: string; title: string; blurb: string; url?: string };
 
 export const VERTICALS: Vertical[] = [
-  { slug: 'saas', title: 'SaaS', blurb: 'Placeholder blurb for SaaS lead generation.' },
-  { slug: 'cybersecurity', title: 'Cybersecurity', blurb: 'Placeholder blurb for cybersecurity demand.' },
-  { slug: 'fintech', title: 'FinTech', blurb: 'Placeholder blurb for financial technology prospects.' },
-  { slug: 'manufacturing', title: 'Manufacturing', blurb: 'Placeholder blurb for industrial and OEM.' },
-  { slug: 'healthcare', title: 'Healthcare', blurb: 'Placeholder blurb for healthcare B2B.' },
-  { slug: 'logistics', title: 'Logistics', blurb: 'Placeholder blurb for supply-chain.' },
-  { slug: 'consulting', title: 'Consulting', blurb: 'Placeholder blurb for professional services.' }
+  {
+    slug: 'payperleads',
+    title: 'Pay Per Leads',
+    blurb:
+      'Leads B2B qualifiés, vérifiés, livrés à la performance. Vous sélectionnez, vous payez à la lead.',
+    url: 'https://payperleads.bpcorp.eu/'
+  },
+  {
+    slug: 'finance',
+    title: 'Finance',
+    blurb:
+      "Flux continu de demandes de financement qualifiées pour fintechs, courtiers et sociétés de financement.",
+    url: 'https://finance.bpcorp.eu/'
+  },
+  {
+    slug: 'insurtech',
+    title: 'Insurtech',
+    blurb:
+      'Leads B2B qualifiés pour assureurs et courtiers : crédit-bail, assurance pro, optimisation.',
+    url: 'https://insurtech.bpcorp.eu/'
+  }
 ];
 
 
