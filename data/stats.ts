@@ -1,12 +1,12 @@
 export type StatItem = { label: string; value: string };
 
 export const STATS: StatItem[] = [
-  { label: 'Clients Served', value: '120+' },
-  { label: 'Qualified Leads / mo', value: '10k+' },
-  { label: 'Operating Regions', value: 'EU & NA' },
-  { label: 'Avg. Sales Cycle Impact', value: '-22%' },
-  { label: 'Team', value: 'Placeholder' },
-  { label: 'Year Founded', value: 'Placeholder' }
+  { label: 'Leads delivered / mo', value: '5k+' },
+  { label: 'Delivery rate', value: '98%' },
+  { label: 'Validation rate', value: '95%' },
+  { label: 'Delivery window', value: '7–30 days' },
+  { label: 'Sectors covered', value: '6' },
+  { label: 'Companies trusting us', value: '500+' }
 ];
 
 
