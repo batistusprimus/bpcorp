@@ -9,8 +9,8 @@ export default function BrandsPage() {
   return (
     <Container>
       <section className="py-12">
-        <h1 className="text-3xl font-bold mb-4">Marques</h1>
-        <p className="mb-6 text-gray-700">Nos marques actives opérées par BPC Group.</p>
+        <h1 className="text-3xl font-bold mb-4">Brands</h1>
+        <p className="mb-6 text-gray-700">Active brands operated by BPC Group.</p>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {BRANDS.map((b) => (
             <li key={b.slug} className="border border-gray-300 p-4 bg-white">
@@ -22,7 +22,7 @@ export default function BrandsPage() {
                   rel="noopener noreferrer"
                   className="text-sm text-blue-600 hover:underline"
                 >
-                  Visiter le site ↗
+                  Visit site ↗
                 </a>
               </div>
               <p className="text-sm text-gray-700">{b.blurb}</p>

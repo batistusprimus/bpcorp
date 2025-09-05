@@ -11,23 +11,23 @@ export default function AboutPage() {
   return (
     <Container>
       <section className="py-12">
-        <h1 className="text-3xl font-bold mb-4">About</h1>
-        <p className="mb-3 text-gray-700">We help B2B teams build repeatable demand engines across paid and outbound.</p>
-        <p className="mb-3 text-gray-700">Our model blends senior strategy with rigorous execution and transparent measurement.</p>
-        <p className="mb-6 text-gray-700">Engagements are lean, fast to start, and focused on business outcomes.</p>
+        <h1 className="text-3xl font-bold mb-4">À propos</h1>
+        <p className="mb-3 text-gray-700">Nous aidons les équipes B2B à construire des machines de demande réplicables, en payant uniquement à la performance.</p>
+        <p className="mb-3 text-gray-700">Notre modèle combine une stratégie senior avec une exécution rigoureuse et une mesure transparente.</p>
+        <p className="mb-6 text-gray-700">Des missions lean, rapides à démarrer, et focalisées sur les résultats business.</p>
 
-        <Section title="Operating regions">
+        <Section title="Zones d’intervention">
           <ul className="list-disc pl-6">
-            <li>European Union</li>
-            <li>North America</li>
+            <li>Union européenne</li>
+            <li>Amérique du Nord</li>
           </ul>
         </Section>
 
-        <Section title="What we don&apos;t do">
+        <Section title="Ce que nous ne faisons pas">
           <ul className="list-disc pl-6">
-            <li>No low-intent campaigns</li>
-            <li>No unrealistic promises</li>
-            <li>No non-compliant data</li>
+            <li>Pas de campagnes à faible intention</li>
+            <li>Pas de promesses irréalistes</li>
+            <li>Pas de données non conformes</li>
           </ul>
         </Section>
 

@@ -24,7 +24,7 @@ export default function VerticalDetailPage({ params }: Props) {
               rel="noopener noreferrer"
               className="inline-block px-4 py-2 bg-black text-white text-sm font-medium hover:opacity-90"
             >
-              Visiter le site ↗
+              Visit site ↗
             </a>
           </div>
         )}

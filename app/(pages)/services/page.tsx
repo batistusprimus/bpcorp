@@ -30,7 +30,7 @@ export default function ServicesPage() {
         <Section title="Masterclass">
           <ul className="list-disc pl-6 text-gray-700">
             <li>Who it&apos;s for: in‑house teams upskilling on modern demand gen.</li>
-            <li>Deliverables: frameworks, templates, live sessions, Q&A.</li>
+            <li>Deliverables: frameworks, templates, live sessions, Q&amp;A.</li>
             <li>Constraints: tailored to your stack and targets.</li>
           </ul>
         </Section>

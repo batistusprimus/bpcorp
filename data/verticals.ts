@@ -5,21 +5,21 @@ export const VERTICALS: Vertical[] = [
     slug: 'payperleads',
     title: 'Pay Per Leads',
     blurb:
-      'Leads B2B qualifiés, vérifiés, livrés à la performance. Vous sélectionnez, vous payez à la lead.',
+      'Qualified B2B leads delivered on a performance basis. You select, you pay per lead.',
     url: 'https://payperleads.bpcorp.eu/'
   },
   {
     slug: 'finance',
     title: 'Finance',
     blurb:
-      "Flux continu de demandes de financement qualifiées pour fintechs, courtiers et sociétés de financement.",
+      'A steady flow of qualified financing requests for fintechs, brokers and lenders.',
     url: 'https://finance.bpcorp.eu/'
   },
   {
     slug: 'insurtech',
     title: 'Insurtech',
     blurb:
-      'Leads B2B qualifiés pour assureurs et courtiers : crédit-bail, assurance pro, optimisation.',
+      'Qualified B2B leads for insurers and brokers: leasing, commercial insurance, optimization.',
     url: 'https://insurtech.bpcorp.eu/'
   }
 ];

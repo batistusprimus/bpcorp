@@ -10,8 +10,8 @@ export default function VerticalsIndexPage() {
   return (
     <Container>
       <section className="py-12">
-        <h1 className="text-3xl font-bold mb-4">Verticales</h1>
-        <p className="mb-6 text-gray-700">Nos lignes de services opérées à la performance.</p>
+        <h1 className="text-3xl font-bold mb-4">Verticals</h1>
+        <p className="mb-6 text-gray-700">Our lines of services operated on a performance basis.</p>
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {VERTICALS.map((v) => (
             <li key={v.slug} className="border border-gray-300 p-3">
@@ -24,7 +24,7 @@ export default function VerticalsIndexPage() {
                     rel="noopener noreferrer"
                     className="text-sm text-blue-600 hover:underline"
                   >
-                    Voir le site ↗
+                    Visit site ↗
                   </a>
                 )}
               </div>

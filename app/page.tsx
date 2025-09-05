@@ -11,14 +11,14 @@ export default function HomePage() {
   return (
     <Container>
       <section className="py-12">
-        <h1 className="text-3xl font-bold mb-2">Compounding B2B demand generation.</h1>
-        <p className="mb-4 text-gray-700">We plan, run and scale programs that create pipeline and lower CAC.</p>
-        <Link href="/contact" className="inline-block border border-black bg-black text-white px-4 py-2">Talk to an expert</Link>
+        <h1 className="text-3xl font-bold mb-2">Nous générons de la demande B2B — à la performance.</h1>
+        <p className="mb-4 text-gray-700">Nous concevons, opérons et scalons des programmes qui créent du pipeline et réduisent votre CAC.</p>
+        <Link href="/contact" className="inline-block border border-black bg-black text-white px-4 py-2">Parler à un expert</Link>
       </section>
 
-      <Section title="What we do" description="Acquisition strategy, campaign operations, and data foundations for high‑intent B2B growth." />
+      <Section title="Ce que nous faisons" description="Stratégie d’acquisition, opérations de campagnes et données pour une croissance B2B à forte intention." />
 
-      <Section title="Key Stats">
+      <Section title="Chiffres clés">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {STATS.slice(0, 6).map((s) => (
             <Stat key={s.label} label={s.label} value={s.value} />
@@ -26,18 +26,18 @@ export default function HomePage() {
         </div>
       </Section>
 
-      <Section title="Services Overview">
+      <Section title="Aperçu des services">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {['Pay Per Lead', 'Incubator Program', 'Masterclass'].map((service) => (
+          {['Pay Per Lead', 'Programme Incubateur', 'Masterclass'].map((service) => (
             <Card key={service}>
               <div className="font-medium mb-2">{service}</div>
-              <Link href="/services" className="underline">Learn more</Link>
+              <Link href="/services" className="underline">En savoir plus</Link>
             </Card>
           ))}
         </div>
       </Section>
 
-      <Section title="Verticals Overview">
+      <Section title="Verticales">
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-2">
           {VERTICALS.map((v) => (
             <li key={v.slug} className="border border-gray-300 p-3">
@@ -48,13 +48,13 @@ export default function HomePage() {
         </ul>
       </Section>
 
-      <Section title="Selected cases">
+      <Section title="Études de cas">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {CASES.slice(0, 3).map((c) => (
             <Card key={c.id}>
               <div className="font-medium mb-2">{c.title}</div>
               <p className="text-sm text-gray-700 mb-2">{c.summary}</p>
-              <Link href="/cases" className="underline">See all</Link>
+              <Link href="/cases" className="underline">Voir tout</Link>
             </Card>
           ))}
         </div>
