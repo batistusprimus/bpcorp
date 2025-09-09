@@ -6,7 +6,6 @@ import { STATS } from '@/data/stats';
 import { MARKETS } from '@/data/markets';
 import { CASES } from '@/data/cases';
 import Link from 'next/link';
-import type { Route } from 'next';
 
 export default function HomePage() {
   return (
@@ -83,7 +82,7 @@ export default function HomePage() {
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-2">
           {MARKETS.map((v) => (
             <li key={v.slug} className="border border-gray-300 p-3">
-              <Link href={{ pathname: '/markets/[slug]', query: { slug: v.slug } }} className="font-medium">{v.title}</Link>
+              <Link href={`/markets/${v.slug}`} className="font-medium">{v.title}</Link>
               <p className="text-sm text-gray-700">{v.blurb}</p>
             </li>
           ))}
