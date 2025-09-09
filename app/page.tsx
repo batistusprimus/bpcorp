@@ -3,9 +3,10 @@ import Section from '@/components/Section';
 import Card from '@/components/Card';
 import Stat from '@/components/Stat';
 import { STATS } from '@/data/stats';
-import { VERTICALS } from '@/data/verticals';
+import { MARKETS } from '@/data/markets';
 import { CASES } from '@/data/cases';
 import Link from 'next/link';
+import type { Route } from 'next';
 
 export default function HomePage() {
   return (
@@ -16,11 +17,21 @@ export default function HomePage() {
         <Link href="/contact" className="inline-block border border-black bg-black text-white px-4 py-2">Talk to an expert</Link>
       </section>
 
-      <Section title="What we do" description="Acquisition strategy, campaign operations, and data foundations for high‑intent B2B growth." />
+      <Section title="What we do" description="We operate a Pay‑Per‑Lead model for B2B markets.">
+        <p className="text-gray-700 mb-3">
+          You only pay for validated leads: verified email and direct phone, ICP fit, explicit interest. No retainers. No long contracts. Performance only.
+        </p>
+        <p className="text-gray-700 mb-3">
+          Precision targeting across outbound (cold email, LinkedIn, calling), inbound (ads, SEO) and proprietary data systems. Transparent reporting, CRM‑ready delivery.
+        </p>
+        <p className="text-gray-700">
+          Scale from 25 to 500+ leads per month depending on the market. Typical delivery window: 24h–7 days.
+        </p>
+      </Section>
 
       <Section title="Key Stats">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {STATS.slice(0, 6).map((s) => (
+          {STATS.map((s) => (
             <Stat key={s.label} label={s.label} value={s.value} />
           ))}
         </div>
@@ -43,22 +54,36 @@ export default function HomePage() {
         </div>
       </Section>
 
-      <Section title="Services Overview">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {['Pay Per Lead', 'Incubator Program', 'Masterclass'].map((service) => (
-            <Card key={service}>
-              <div className="font-medium mb-2">{service}</div>
-              <Link href="/services" className="underline">Learn more</Link>
-            </Card>
-          ))}
+      <Section title="Pay Per Lead">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <Card>
+            <div className="font-medium mb-2">Who it’s for</div>
+            <p className="text-sm text-gray-700">B2B teams needing scalable, qualified pipeline and booked meetings.</p>
+          </Card>
+          <Card>
+            <div className="font-medium mb-2">What you get</div>
+            <p className="text-sm text-gray-700">Validated leads (email + phone), ICP fit and explicit interest. Weekly reporting. CRM‑ready delivery.</p>
+          </Card>
+          <Card>
+            <div className="font-medium mb-2">How it works</div>
+            <p className="text-sm text-gray-700">Outbound + inbound mix, proprietary data systems, transparent QA. No retainers. Pay per delivered lead.</p>
+          </Card>
+          <Card>
+            <div className="font-medium mb-2">Scale & cadence</div>
+            <p className="text-sm text-gray-700">From 25 to 500+ leads/month. Delivery window 24h–7 days with clear SLAs.</p>
+          </Card>
+        </div>
+        <div className="mt-4 flex items-center gap-4">
+          <Link href="/services" className="underline">Learn more about Pay Per Lead</Link>
+          <Link href="/contact" className="inline-block border border-black bg-black text-white px-4 py-2">Talk to an expert</Link>
         </div>
       </Section>
 
-      <Section title="Verticals Overview">
+      <Section title="Markets Overview">
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-2">
-          {VERTICALS.map((v) => (
+          {MARKETS.map((v) => (
             <li key={v.slug} className="border border-gray-300 p-3">
-              <Link href={`/verticals/${v.slug}`} className="font-medium">{v.title}</Link>
+              <Link href={{ pathname: '/markets/[slug]', query: { slug: v.slug } }} className="font-medium">{v.title}</Link>
               <p className="text-sm text-gray-700">{v.blurb}</p>
             </li>
           ))}

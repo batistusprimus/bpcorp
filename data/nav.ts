@@ -6,7 +6,7 @@ export const NAV_ITEMS: NavItem[] = [
   { path: '/', label: 'Home' },
   { path: '/about', label: 'About' },
   { path: '/services', label: 'Services' },
-  { path: '/verticals', label: 'Verticals' },
+  { path: '/markets', label: 'Markets' },
   { path: '/brands', label: 'Brands' },
   { path: '/cases', label: 'Cases' },
   { path: '/contact', label: 'Contact' }
