@@ -1,0 +1,26 @@
+
+> bpcorp-site@0.1.0 dev
+> next dev -p 3000
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+  - Experiments (use with caution):
+    · typedRoutes
+
+ ✓ Starting...
+ ✓ Ready in 2.7s
+ ○ Compiling /markets ...
+ ✓ Compiled /markets in 82.1s (550 modules)
+ ✓ Compiled in 1983ms (265 modules)
+ ✓ Compiled in 245ms (265 modules)
+ ✓ Compiled in 344ms (265 modules)
+ ✓ Compiled / in 433ms (569 modules)
+ GET / 200 in 682ms
+ ✓ Compiled /markets in 136ms (306 modules)
+ GET /markets 200 in 305ms
+ ✓ Compiled /markets/[slug] in 419ms (566 modules)
+ GET /markets/climate-insurance 200 in 1358ms
+ ✓ Compiled in 337ms (580 modules)
+ ✓ Compiled in 441ms (580 modules)
+ ✓ Compiled in 575ms (580 modules)
+ GET / 200 in 240ms

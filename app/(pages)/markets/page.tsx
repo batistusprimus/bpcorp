@@ -16,7 +16,7 @@ export default function MarketsIndexPage() {
           {MARKETS.map((m) => (
             <li key={m.slug} className="border border-gray-300 p-3">
               <div className="flex items-center justify-between gap-2">
-                <Link href={{ pathname: '/markets/[slug]', query: { slug: m.slug } }} className="font-medium">{m.title}</Link>
+                <Link href={`/markets/${m.slug}`} className="font-medium">{m.title}</Link>
                 {m.url && (
                   <a
                     href={m.url}
