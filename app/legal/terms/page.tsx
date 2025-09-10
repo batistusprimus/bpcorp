@@ -20,7 +20,7 @@ export default function TermsPage() {
 
         <h2 className="text-xl font-bold mb-2">2. Purpose of the Website</h2>
         <p className="mb-4 text-gray-700">
-          The website is operated by BPC Group ("we," "our," "us"). Its purpose is to provide information about our
+          The website is operated by BPC Group (&quot;we,&quot; &quot;our,&quot; &quot;us&quot;). Its purpose is to provide information about our
           services, including lead generation, Pay-Per-Lead solutions, and related B2B offerings.
         </p>
         <p className="mb-4 text-gray-700">

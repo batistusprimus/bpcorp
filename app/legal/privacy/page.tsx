@@ -15,7 +15,7 @@ export default function PrivacyPage() {
 
         <h2 className="text-xl font-bold mb-2">1. Introduction</h2>
         <p className="mb-4 text-gray-700">
-          This Privacy Policy explains how BPC Group ("we," "our," "us") collects, uses, and protects
+          This Privacy Policy explains how BPC Group (&quot;we,&quot; &quot;our,&quot; &quot;us&quot;) collects, uses, and protects
           personal data obtained through our website (bpcorp.eu) and related services.
         </p>
         <p className="mb-8 text-gray-700">
@@ -107,7 +107,7 @@ export default function PrivacyPage() {
         <ul className="list-disc pl-6 text-gray-700 mb-8">
           <li>Access and obtain a copy of your personal data.</li>
           <li>Correct or update inaccurate data.</li>
-          <li>Request deletion ("right to be forgotten").</li>
+          <li>Request deletion (&quot;right to be forgotten&quot;).</li>
           <li>Object to or restrict processing.</li>
           <li>Withdraw consent at any time.</li>
           <li>Data portability (receive your data in a structured format).</li>
@@ -133,8 +133,8 @@ export default function PrivacyPage() {
 
         <h2 className="text-xl font-bold mb-2">11. Changes to This Policy</h2>
         <p className="mb-8 text-gray-700">
-          We may update this Privacy Policy from time to time. Changes will be posted on this page with a revised "Last
-          updated" date.
+          We may update this Privacy Policy from time to time. Changes will be posted on this page with a revised &quot;Last
+          updated&quot; date.
         </p>
 
         <h2 className="text-xl font-bold mb-2">12. Contact Information</h2>
