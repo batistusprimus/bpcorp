@@ -1,5 +1,4 @@
 import Container from '@/components/Container';
-import ContactForm from '@/components/ContactForm';
 import Script from 'next/script';
 
 export const metadata = {
@@ -20,7 +19,6 @@ export default function ContactPage() {
           />
           <Script src="https://assets.calendly.com/assets/external/widget.js" strategy="afterInteractive" />
         </div>
-        <ContactForm />
       </section>
     </Container>
   );
