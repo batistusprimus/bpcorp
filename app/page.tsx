@@ -76,6 +76,16 @@ export default function HomePage() {
           <Link href="/services" className="underline">Learn more about Pay Per Lead</Link>
           <Link href="/contact" className="inline-block border border-black bg-black text-white px-4 py-2">Talk to an expert</Link>
         </div>
+        <div className="mt-4">
+          <h3 className="text-lg font-semibold mb-2">Key details</h3>
+          <ul className="list-disc pl-6 text-gray-700">
+            <li>Lead definition: verified email + direct phone, ICP fit, explicit interest.</li>
+            <li>QA & replacements: transparent rejection policy under quality thresholds.</li>
+            <li>Delivery: CSV or direct CRM push; weekly batches with status codes.</li>
+            <li>Exclusivity: limited slots per market; predictable capacity planning.</li>
+            <li>Compliance: GDPR/CCPA‑aligned data collection and processing.</li>
+          </ul>
+        </div>
       </Section>
 
       <Section title="Markets Overview">
