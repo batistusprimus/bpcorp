@@ -32,7 +32,7 @@ export default function AboutPage() {
           <ul className="list-disc pl-6">
             <li>Pay‑Per‑Lead: pay only for validated leads (email + phone, ICP fit, explicit interest).</li>
             <li>Precision targeting: outbound (cold email, LinkedIn, cold calling), inbound (ads, SEO), proprietary data systems.</li>
-            <li>Scalability: from 25 to 500+ leads per month, adapted to each market.</li>
+            <li>Scalability: from 25 up to 5,000 leads per month, adapted to each market.</li>
           </ul>
         </Section>
 
@@ -56,7 +56,7 @@ export default function AboutPage() {
 
         <Section title="Our clients">
           <ul className="list-disc pl-6">
-            <li>B2B companies generating between €20k and €500k per month.</li>
+            <li>Mid‑market and enterprise B2B companies with €500k–€50M+ in monthly revenue.</li>
             <li>Verticals: financial services, fintech, business loans, tax advisory, insurance, technology, and other expert‑driven B2B markets.</li>
             <li>Profiles: CEOs, CMOs, Heads of Growth, Sales Directors seeking consistent deal flow.</li>
           </ul>
@@ -64,9 +64,9 @@ export default function AboutPage() {
 
         <Section title="Our vision">
           <ul className="list-disc pl-6">
-            <li>Become the global reference for Pay‑Per‑Lead in B2B markets.</li>
-            <li>Build 10+ vertical brands, each generating €50k+ MRR.</li>
-            <li>Deliver thousands of qualified leads every month worldwide.</li>
+            <li>The global reference for Pay‑Per‑Lead in B2B markets.</li>
+            <li>10+ vertical brands, each generating €50k+ MRR.</li>
+            <li>Thousands of qualified leads delivered every month worldwide.</li>
           </ul>
         </Section>
 

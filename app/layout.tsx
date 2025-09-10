@@ -10,25 +10,31 @@ export const metadata: Metadata = createDefaultMetadata();
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+      </head>
       <body>
         <Script
           src="https://assets.calendly.com/assets/external/widget.js"
           strategy="afterInteractive"
         />
-        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
         <Script id="calendly-badge-init" strategy="afterInteractive">
           {`
-            window.addEventListener('load', function () {
-              if (typeof Calendly !== 'undefined' && Calendly.initBadgeWidget) {
-                Calendly.initBadgeWidget({
-                  url: 'https://calendly.com/baptiste-bpcorp/30min',
-                  text: 'Meet with team BPC',
-                  color: '#0069ff',
-                  textColor: '#ffffff',
-                  branding: true
-                });
+            (function() {
+              function initCalendlyBadge() {
+                if (typeof Calendly !== 'undefined' && Calendly.initBadgeWidget) {
+                  Calendly.initBadgeWidget({
+                    url: 'https://calendly.com/baptiste-bpcorp/15min',
+                    text: 'Meet with team BPC',
+                    color: '#0069ff',
+                    textColor: '#ffffff',
+                    branding: true
+                  });
+                }
               }
-            });
+              initCalendlyBadge();
+              window.addEventListener('load', initCalendlyBadge);
+            })();
           `}
         </Script>
         <Header />
