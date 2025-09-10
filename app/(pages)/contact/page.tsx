@@ -10,7 +10,7 @@ export default function ContactPage() {
     <Container>
       <section className="py-12">
         <h1 className="text-3xl font-bold mb-4">Contact</h1>
-        <p className="mb-6 text-gray-700">Tell us about your goals, ICP, and current pipeline challenges. We reply within 1 business day.</p>
+        <p className="mb-6 text-gray-700">Book a 30-minute intro call to discuss your goals, ICP and volume targets. Pick a time that works — instant confirmation.</p>
         <div className="mb-10">
           <div
             className="calendly-inline-widget"
