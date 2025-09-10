@@ -36,6 +36,23 @@ export default function HomePage() {
         </div>
       </Section>
 
+      <Section title="Track Record">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <Card>
+            <div className="text-2xl font-bold">200+</div>
+            <div className="text-sm text-gray-700">B2B clients</div>
+          </Card>
+          <Card>
+            <div className="text-2xl font-bold">150+</div>
+            <div className="text-sm text-gray-700">Sales teams built</div>
+          </Card>
+          <Card>
+            <div className="text-2xl font-bold">5</div>
+            <div className="text-sm text-gray-700">Years in growth</div>
+          </Card>
+        </div>
+      </Section>
+
       <Section title="Why us" description="Predictable, exclusive and measurable demand you can scale.">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <Card>
@@ -89,14 +106,19 @@ export default function HomePage() {
       </Section>
 
       <Section title="Markets Overview">
-        <ul className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {MARKETS.map((v) => (
-            <li key={v.slug} className="border border-gray-300 p-3">
-              <Link href={`/markets/${v.slug}`} className="font-medium">{v.title}</Link>
+            <Card key={v.slug}>
+              <div className="flex items-center justify-between gap-2 mb-1">
+                <Link href={{ pathname: '/markets/[slug]', query: { slug: v.slug } }} className="font-medium">{v.title}</Link>
+                {v.url && (
+                  <a href={v.url} target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:underline">Visit ↗</a>
+                )}
+              </div>
               <p className="text-sm text-gray-700">{v.blurb}</p>
-            </li>
+            </Card>
           ))}
-        </ul>
+        </div>
       </Section>
 
       <Section title="Selected cases">
