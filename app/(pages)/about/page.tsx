@@ -65,7 +65,7 @@ export default function AboutPage() {
         <Section title="Our vision">
           <ul className="list-disc pl-6">
             <li>The global reference for Pay‑Per‑Lead in B2B markets.</li>
-            <li>10+ vertical brands, each generating €50k+ MRR.</li>
+            <li>10+ specialized brands, each compounding performance in its market.</li>
             <li>Thousands of qualified leads delivered every month worldwide.</li>
           </ul>
         </Section>
