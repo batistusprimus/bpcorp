@@ -8,10 +8,10 @@ export function createDefaultMetadata(overrides?: Partial<Metadata>): Metadata {
       template: `${ORG_NAME} – %s`,
       default: `${ORG_NAME} – ${TAGLINE}`
     },
-    description: 'B2B demand generation for SaaS, cybersecurity, and industrial brands.',
+    description: 'Pay‑Per‑Lead B2B demand generation. Exclusive, qualified pipeline for enterprise brands.',
     openGraph: {
       title: `${ORG_NAME}`,
-      description: 'B2B demand generation for SaaS, cybersecurity, and industrial brands.',
+      description: 'Pay‑Per‑Lead B2B demand generation. Exclusive, qualified pipeline for enterprise brands.',
       url: SITE_URL,
       siteName: ORG_NAME,
       type: 'website'
