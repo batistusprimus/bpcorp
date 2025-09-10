@@ -16,22 +16,9 @@ export default function ServicesPage() {
             <li>Who it&apos;s for: teams needing scalable, qualified meetings.</li>
             <li>Deliverables: booked meetings, lead lists, weekly reporting.</li>
             <li>Constraints: ICP/markets agreed, compliance by default.</li>
-          </ul>
-        </Section>
-
-        <Section title="Incubator Program">
-          <ul className="list-disc pl-6 text-gray-700">
-            <li>Who it&apos;s for: founders/heads of growth validating channels.</li>
-            <li>Deliverables: hypotheses, experiments, channel playbooks.</li>
-            <li>Constraints: 6–8 weeks sprints, weekly working sessions.</li>
-          </ul>
-        </Section>
-
-        <Section title="Masterclass">
-          <ul className="list-disc pl-6 text-gray-700">
-            <li>Who it&apos;s for: in‑house teams upskilling on modern demand gen.</li>
-            <li>Deliverables: frameworks, templates, live sessions, Q&amp;A.</li>
-            <li>Constraints: tailored to your stack and targets.</li>
+            <li>Validation: verified email + direct phone, ICP fit, explicit interest.</li>
+            <li>How it works: outbound + inbound mix, proprietary data systems, transparent QA.</li>
+            <li>Scale & cadence: 25 to 500+ leads/month, delivery window 24h–7 days.</li>
           </ul>
         </Section>
       </section>
