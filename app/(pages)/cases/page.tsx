@@ -19,19 +19,21 @@ export default function CasesPage() {
           <h2 className="text-xl font-bold mb-3">Track Record</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Card>
-              <div className="text-2xl font-bold">200+</div>
-              <div className="text-sm text-gray-700">B2B clients</div>
+              <div className="font-medium mb-1">Trusted by B2B companies</div>
+              <p className="text-sm text-gray-700">Across SaaS, finance, manufacturing and more in EMEA & North America.</p>
             </Card>
             <Card>
-              <div className="text-2xl font-bold">150+</div>
-              <div className="text-sm text-gray-700">Sales teams built</div>
+              <div className="font-medium mb-1">Sales teams we build and support</div>
+              <p className="text-sm text-gray-700">End‑to‑end motions: SDR, inbound, outbound and PPL execution.</p>
             </Card>
             <Card>
-              <div className="text-2xl font-bold">5</div>
-              <div className="text-sm text-gray-700">Years in growth</div>
+              <div className="font-medium mb-1">Operating in growth‑led demand</div>
+              <p className="text-sm text-gray-700">Compounding learnings and proprietary data assets over the years.</p>
             </Card>
           </div>
         </section>
+
+        
 
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-3">Markets</h2>
