@@ -46,7 +46,7 @@ export default function ServicesPage() {
             <div>
               <h3 className="font-medium mb-2">Scale</h3>
               <ul className="list-disc pl-6">
-                <li>From 25 to 500+ leads/month depending on market capacity.</li>
+                <li>From 25 to 5,000+ leads/month depending on market capacity.</li>
                 <li>Exclusivity: limited slots per market to preserve performance.</li>
               </ul>
             </div>

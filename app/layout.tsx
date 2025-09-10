@@ -24,8 +24,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               function initCalendlyBadge() {
                 if (typeof Calendly !== 'undefined' && Calendly.initBadgeWidget) {
                   Calendly.initBadgeWidget({
-                    url: 'https://calendly.com/baptiste-bpcorp/15min',
-                    text: 'Meet with team BPC',
+                    url: 'https://calendly.com/baptiste-bpcorp/30min',
+                    text: 'Meet with the team',
                     color: '#0069ff',
                     textColor: '#ffffff',
                     branding: true
