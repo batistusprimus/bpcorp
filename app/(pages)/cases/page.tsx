@@ -54,9 +54,6 @@ export default function CasesPage() {
             <li key={c.id} className="border border-gray-300 p-3">
               <div className="font-medium mb-1">{c.title}</div>
               <p className="text-sm text-gray-700">{c.summary}</p>
-              <div className="mt-2">
-                <Link href="/contact" className="underline">Book an intro</Link>
-              </div>
             </li>
           ))}
         </ul>
